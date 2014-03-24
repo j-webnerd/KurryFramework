@@ -1,0 +1,105 @@
+body {
+	font-family: "Ubuntu","hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+h1.thick-bordered {
+	border-bottom: 3px solid #333;
+	padding: 5px;
+}
+
+.label {
+	display: inline-block;
+	padding: 5px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand .small {
+	color: #aaaaaa;
+	display: inline-block;
+	font-size: 52%;
+	line-height: 100%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	font-weight: bold;
+	color: #DDD;
+}
+
+.navbar-toggle {
+	margin-right: 8px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Ubuntu","hiragino kaku gothic pro",meiryo,"ms pgothic",sans-serif;
+}
+
+h1.dashed, h2.dashed, h3.dashed, h4.dashed, h5.dashed, h6.dashed, .h1.dashed, .h2.dashed, .h3.dashed, .h4.dashed, .h5.dashed, .h6.dashed {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px dashed #999999;
+	border-bottom: 1px dashed #999999;
+}
+
+h1.double, h2.double, h3.double, h4.double, h5.double, h6.double, .h1.double, .h2.double, .h3.double, .h4.double, .h5.double, .h6.double {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 3px double #999999;
+	border-bottom: 3px double #999999;
+}
+
+.jumbotron {
+	background: url(/images/pattern_fabric_blue.jpg);
+	color: #FFFFFF;
+}
+
+.jumbotron-logo {
+	font-size: 188px;
+}
+
+.navbar-inverse {
+	background: url(/images/pattern_fabric_black.jpg);
+}
+
+.dotted-bottom {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #999999;
+}
+
+#footer {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	background: url(/images/pattern_fabric_black.jpg);
+	color: #FFF;
+}
+
+#footer ul {
+	margin: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#footer ul li a {
+	display: inline-block;
+	padding:0 0 5px;
+}
+
+#footer #copyright {
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+
+	.navbar-brand .small {
+		padding-left: 10px;
+	}
+	
+}
+
